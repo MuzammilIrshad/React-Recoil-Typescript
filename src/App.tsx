@@ -1,7 +1,8 @@
 
 import "./App.css";
-import Count from "./Count";
-import { TextInput } from "./TextInput";
+import TodoAddItem from "./TodoAddItem";
+import TodoList from "./TodoList";
+
 
 function App() {
 
@@ -9,8 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <TextInput/>
-        <Count/>
+       <TodoAddItem/>
+       <TodoList/>
       </div>
      
     </>
